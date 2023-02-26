@@ -1,0 +1,24 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdunnington/README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdunnington/README-Generator/issues"
+  },
+  "homepage": "https://github.com/fdunnington/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "utils": "^0.2.2"
+  }
+}
