@@ -3,18 +3,17 @@
 
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  https://fdunnington.github.io/README-Generator
+  ### Depoloyed at https://fdunnington.github.io/README-Generator
 
   ## Description:
 
-  ### Motivation
-  This project was an execrise in learning how to use node, npm, and markdown.
+  #### Motivation #### 
+  This project was an excercise in learning how to use node, npm, and markdown.
+  The app is designed to make creating a README an easy process, using node prompts to create the structure of the README, and the prompt answers to complete the detail of the README.
 
-	The app is aimed to make creating a README an easy process, using node prompts to create the structure of the README, and the prompt answers to complete the detail of the README
 
-
-  ### Learnings
-  The project taught me not only about node, and how it can be used to make processes more efficient, but also helped me develop a better understanding of Markdown, enabling me to create a clear and user-friendly instruction manual for my Github repos
+  #### Learnings #### 
+  The project taught me not only about node and npm, and how they can be used to make processes more efficient but also helped me develop a better understanding of Markdown, enabling me to create a clear and user-friendly instruction manual for my Github repos. This README was created with the generator.
 
 
   ----
@@ -25,32 +24,32 @@
   * [Application usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [How to test](#test)
+  * [How to test](#testing)
   * [Questions](#questions)
+  * [Credits](#credits)
 
   ----
   
 
   ## Installation:
-  To install the application in a dev environment, follow the instructions below: 
-  ``  To use this app you will need to set install node and npm in your local dev environment. 
+  To use this app you will need to set install node and npm in your local dev environment. 
 
-Step 1: 
+**Step 1:**
 Install node.js (https://nodejs.dev/en/download/)
 
-Step 2: 
+**Step 2:** 
 Create and initialize a package.json file by running the following commands in the displayed order (inside the intended directory):
 
 	$ npm init -y
 	$ npm install
 
 
-Step 2: 
+**Step 3:** 
 Install npm's Inquirer module 
 
 	$ npm install inquirer
 
-Step 3:
+**Step 4:**
 Install npm's Util module
 
 	$ npm install util
@@ -68,13 +67,14 @@ Install npm's Util module
   This project uses the ![Github license](https://img.shields.io/badge/license-MIT-blue.svg) license.
 
 
-  ## Contributing to this project
+  ## Contributing
+  
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
   
   We are happy for other developers to contribute to this project, and have adpoted the [Contributor Covenant](https://www.contributor-covenant.org/)
 
 
-  ## Tests
+  ## Testing
   To run test, run the following command:
   ~~~
   node index.js
