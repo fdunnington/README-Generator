@@ -16,6 +16,7 @@
   The project taught me not only about node and npm, and how they can be used to make processes more efficient, but also helped me develop a better understanding of Markdown, enabling me to create a clear and user-friendly instruction manual for my Github repos. This README was created with the generator.
 
 
+
   ----
 
   ## Table of Contents:
@@ -26,30 +27,30 @@
   * [Contributing](#contributing)
   * [How to test](#testing)
   * [Questions](#questions)
+  * [Credits](#credits)
 
   ----
   
 
   ## Installation:
-  To install the application in a dev environment, follow the instructions below: 
-  ``  To use this app you will need to set install node and npm in your local dev environment. 
+  To use this app you will need to set install node and npm in your local dev environment. 
 
-Step 1: 
+**Step 1:**
 Install node.js (https://nodejs.dev/en/download/)
 
-Step 2: 
+**Step 2:** 
 Create and initialize a package.json file by running the following commands in the displayed order (inside the intended directory):
 
 	$ npm init -y
 	$ npm install
 
 
-Step 2: 
+**Step 3:** 
 Install npm's Inquirer module 
 
 	$ npm install inquirer
 
-Step 3:
+**Step 4:**
 Install npm's Util module
 
 	$ npm install util
