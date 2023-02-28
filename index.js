@@ -8,52 +8,70 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your Github username? 🚀'
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address? ✉️ '
+        message: '🚀 Your Github username: '
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is the name of your project? '
+        message: 'Project name: '
     },
     {
         type: 'input',
-        name: 'description',
-        message: 'Write a short description of your project: '
+        name: 'deployed',
+        message: 'Deployed project URL: '
     },
     {
-        type: 'input',
+        type: 'editor',
+        name: 'motivation',
+        message: 'Motivation for the project - why did you build it, & what problem does the project solve? '
+    },
+    {
+        type: 'editor',
+        name: 'learnings',
+        message: 'What did you learn from the project? '
+    },
+    {
+        type: 'list',
         name: 'license',
-        message: 'Which license should your license be? ',
-        options: ["MIT", "APACHE2.0", "GPL","None",],
-        default: 'MIT'
+        message: 'Which license does the project use? ',
+        choices: ["MIT", "APACHE2.0", "GPL","None",],
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'installation',
-        message: 'What command should be run to install dependencies? ',
-        default: 'npm i'
+        message: 'What steps are required to install the project in a dev environment?',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'What command should be run to test? ',
-        default: 'npm test'
+        message: 'What command should be run to test the application? ',
+        default: 'node index.js'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What does the user need to know about using the repo? ',
+        message: 'Does the user need to know anything about using the repo? ',
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo? ',
+        name: 'screenshot',
+        message: 'File path for app screenshot: ',
     },
+    {
+        type: 'input',
+        name: 'altText',
+        message: 'Screenshot alt text: ',
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Is there anyone you would like to credit in this README? ',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Anyone with questions can contact you at: '
+    }
 ];
 
 // function to write README file
@@ -64,7 +82,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((response) => {
-        console.log("Generating a README...");
+        console.log("Generating README...");
         writeToFile('README.md', generateMarkdown({...response}));
     });
 
