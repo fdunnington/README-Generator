@@ -8,12 +8,13 @@
   ## Description:
 
   #### Motivation #### 
-  This project was an excercise in learning how to use node, npm, and markdown.
-  The app is designed to make creating a README an easy process, using node prompts to create the structure of the README, and the prompt answers to complete the detail of the README.
+  This project was an execrise in learning how to use node, npm, and markdown.
+  The app is aimed to make creating a README an easy process, using node prompts to create the structure of the README, and the prompt answers to complete the detail of the README.
 
 
   #### Learnings #### 
-  The project taught me not only about node and npm, and how they can be used to make processes more efficient but also helped me develop a better understanding of Markdown, enabling me to create a clear and user-friendly instruction manual for my Github repos. This README was created with the generator.
+  The project taught me not only about node and npm, and how they can be used to make processes more efficient, but also helped me develop a better understanding of Markdown, enabling me to create a clear and user-friendly instruction manual for my Github repos. This README was created with the generator.
+
 
 
   ----
