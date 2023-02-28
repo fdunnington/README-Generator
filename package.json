@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/fdunnington/README-Generator#readme",
   "dependencies": {
+    "@inquirer/select": "^0.0.29-alpha.0",
     "inquirer": "^6.5.0",
     "utils": "^0.2.2"
   }
