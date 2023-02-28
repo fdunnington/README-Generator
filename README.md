@@ -3,7 +3,7 @@
 
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  ### Depoloyed at https://fdunnington.github.io/README-Generator
+  ### Deployed at https://fdunnington.github.io/README-Generator
 
   ## Description:
 
