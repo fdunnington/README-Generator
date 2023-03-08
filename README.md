@@ -33,7 +33,7 @@
   
 
   ## Installation:
-  To use this app you will need to set install node and npm in your local dev environment. 
+  To use this app you will need to first install node and npm in your local dev environment. 
 
 **Step 1:**
 Install node.js (https://nodejs.dev/en/download/)
